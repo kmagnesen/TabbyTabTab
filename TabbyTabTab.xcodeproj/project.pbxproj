@@ -13,6 +13,8 @@
 		F95230841A82730F000FB86F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95230831A82730F000FB86F /* Images.xcassets */; };
 		F95230871A82730F000FB86F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95230851A82730F000FB86F /* LaunchScreen.xib */; };
 		F95230931A82730F000FB86F /* TabbyTabTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95230921A82730F000FB86F /* TabbyTabTabTests.swift */; };
+		F952309D1A8276BD000FB86F /* DownloadKittenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952309C1A8276BD000FB86F /* DownloadKittenViewController.swift */; };
+		F952309F1A8276D4000FB86F /* DisplayKittenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952309E1A8276D4000FB86F /* DisplayKittenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F952308C1A82730F000FB86F /* TabbyTabTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbyTabTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95230911A82730F000FB86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95230921A82730F000FB86F /* TabbyTabTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbyTabTabTests.swift; sourceTree = "<group>"; };
+		F952309C1A8276BD000FB86F /* DownloadKittenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadKittenViewController.swift; sourceTree = "<group>"; };
+		F952309E1A8276D4000FB86F /* DisplayKittenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayKittenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				F952307C1A82730F000FB86F /* AppDelegate.swift */,
 				F952307E1A82730F000FB86F /* ViewController.swift */,
 				F95230801A82730F000FB86F /* Main.storyboard */,
+				F952309C1A8276BD000FB86F /* DownloadKittenViewController.swift */,
+				F952309E1A8276D4000FB86F /* DisplayKittenViewController.swift */,
 				F95230831A82730F000FB86F /* Images.xcassets */,
 				F95230851A82730F000FB86F /* LaunchScreen.xib */,
 				F952307A1A82730F000FB86F /* Supporting Files */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F952309F1A8276D4000FB86F /* DisplayKittenViewController.swift in Sources */,
 				F952307F1A82730F000FB86F /* ViewController.swift in Sources */,
 				F952307D1A82730F000FB86F /* AppDelegate.swift in Sources */,
+				F952309D1A8276BD000FB86F /* DownloadKittenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
